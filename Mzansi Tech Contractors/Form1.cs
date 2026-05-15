@@ -12,7 +12,7 @@ namespace Mzansi_Tech_Contractors
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            //  Input Validation 
+            // Input Validation
             if (string.IsNullOrWhiteSpace(txtName.Text))
             {
                 MessageBox.Show("Please enter the contractor's name.",
@@ -21,7 +21,6 @@ namespace Mzansi_Tech_Contractors
                 return;
             }
 
-            // 2. Hours worked must be a valid positive number
             if (!double.TryParse(txtHours.Text, out double hours))
             {
                 MessageBox.Show("Please enter a valid number for hours worked.",
@@ -38,7 +37,6 @@ namespace Mzansi_Tech_Contractors
                 return;
             }
 
-            // 3. Dependents must be a valid non-negative integer
             if (!int.TryParse(txtDependents.Text, out int dependents))
             {
                 MessageBox.Show("Please enter a valid whole number for dependents.",
@@ -55,37 +53,20 @@ namespace Mzansi_Tech_Contractors
                 return;
             }
 
-            //  Calculations 
+            //  all calculations handled by PayCalculator
+            PayResult result = PayCalculator.Calculate(hours, dependents);
 
-            const double ratePerHour = 950.00;
-
-            double grossPay = hours * ratePerHour;
-
-            const double uifRate = 0.01;
-            double uif = grossPay * uifRate;
-
-            double taxableIncome = grossPay - (grossPay * 0.0575 * dependents);
-            double paye = taxableIncome * 0.25;
-
-            const double membershipFeeRate = 0.13;
-            double membershipFee = grossPay * membershipFeeRate;
-
-            // Net Pay = Gross Pay − UIF − PAYE − Membership Fee
-            double totalDeductions = uif + paye + membershipFee;
-            double netPay = grossPay - totalDeductions;
-
-
-            txtGrossPay.Text = grossPay.ToString("F2");
-            txtPAYE.Text = paye.ToString("F2");
-            txtUIF.Text = uif.ToString("F2");
-            txtMembership.Text = membershipFee.ToString("F2");
-            txtTotalDeduction.Text = totalDeductions.ToString("F2");
-            txtNetPay.Text = netPay.ToString("F2");
+            // Display results
+            txtGrossPay.Text = result.GrossPay.ToString("F2");
+            txtUIF.Text = result.UIF.ToString("F2");
+            txtPAYE.Text = result.PAYE.ToString("F2");
+            txtMembership.Text = result.MembershipFee.ToString("F2");
+            txtTotalDeduction.Text = result.TotalDeductions.ToString("F2");
+            txtNetPay.Text = result.NetPay.ToString("F2");
         }
 
         private void btnReset_Click(object sender, EventArgs e)
         {
-            // Clear all text boxes
             txtName.Clear();
             txtHours.Clear();
             txtDependents.Clear();
@@ -96,7 +77,7 @@ namespace Mzansi_Tech_Contractors
             txtTotalDeduction.Clear();
             txtNetPay.Clear();
 
-            txtName.Focus(); 
+            txtName.Focus();
         }
 
         private void btnExit_Click(object sender, EventArgs e)

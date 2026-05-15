@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mzansi Tech Contractors")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cdcaf62055615c9ab008d44c5172ef2b04bb0a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mzansi Tech Contractors")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mzansi Tech Contractors")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
