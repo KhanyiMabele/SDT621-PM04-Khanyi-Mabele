@@ -1,0 +1,16 @@
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\bin\Debug\net10.0-windows\Mzansi Tech Contractors.exe
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\bin\Debug\net10.0-windows\Mzansi Tech Contractors.deps.json
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\bin\Debug\net10.0-windows\Mzansi Tech Contractors.runtimeconfig.json
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\bin\Debug\net10.0-windows\Mzansi Tech Contractors.dll
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\bin\Debug\net10.0-windows\Mzansi Tech Contractors.pdb
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\obj\Debug\net10.0-windows\Mzansi_Tech_Contractors.Form1.resources
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\obj\Debug\net10.0-windows\Mzansi Tech Contractors.csproj.GenerateResource.cache
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\obj\Debug\net10.0-windows\Mzansi Tech Contractors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\obj\Debug\net10.0-windows\Mzansi Tech Contractors.AssemblyInfoInputs.cache
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\obj\Debug\net10.0-windows\Mzansi Tech Contractors.AssemblyInfo.cs
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\obj\Debug\net10.0-windows\Mzansi Tech Contractors.csproj.CoreCompileInputs.cache
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\obj\Debug\net10.0-windows\Mzansi Tech Contractors.dll
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\obj\Debug\net10.0-windows\refint\Mzansi Tech Contractors.dll
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\obj\Debug\net10.0-windows\Mzansi Tech Contractors.pdb
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\obj\Debug\net10.0-windows\Mzansi Tech Contractors.genruntimeconfig.cache
+C:\Users\mabel\Desktop\Junior Laptop\OCC SE2 PM04\Mzansi Tech Contractors\Mzansi Tech Contractors\obj\Debug\net10.0-windows\ref\Mzansi Tech Contractors.dll
